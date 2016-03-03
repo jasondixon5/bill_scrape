@@ -28,9 +28,10 @@ import getpass
 pw = getpass.getpass('Enter pw: ')
 >>>Enter pw: 
 ```
+
 Find element identifying password field and store in variable
 Send password and submit
-
+```
 pw = browser.find_element_by_name('Passwd')
 pw.send_keys(pw)
 pw.submit()
